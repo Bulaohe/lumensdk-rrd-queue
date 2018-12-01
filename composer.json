@@ -1,0 +1,24 @@
+{
+  "name": "bulaohe/lumensdk-rrd-queue",
+  "description": "Queue Service Sdk",
+  "keywords": [
+    "Queue",
+    "Service"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Xiaojun Luo",
+      "email": "luoxiaojun@dodoca.com",
+      "homepage": "http://www.dodoca.com/",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0"
+  },
+  "autoload": {
+    "psr-4": {"Ssdk\\Queue\\": "src/"}
+  }
+}
